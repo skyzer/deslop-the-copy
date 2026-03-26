@@ -1,4 +1,4 @@
-# deslop-copy
+# deslop-the-copy
 
 A Claude Code skill that strips AI-generated writing patterns and makes text sound like a real person wrote it.
 
@@ -10,7 +10,7 @@ Wikipedia's [WikiProject AI Cleanup](https://en.wikipedia.org/wiki/Wikipedia:Wik
 
 Existing tools use these patterns to detect and strip AI tells from text — banned phrases, structural cliches, sentence-level rules. They focus on **detection and removal**. They strip the bad stuff out.
 
-deslop-copy goes further. It doesn't just remove AI tells, it **adds back what's missing**: varied sentence rhythm, real opinions, contractions, rough edges, the things that make writing feel like a person actually wrote it. Three passes instead of two. Zero em dash tolerance. And a final audit that asks the only question that matters: "Would someone suspect AI wrote this?"
+deslop-the-copy goes further. It doesn't just remove AI tells, it **adds back what's missing**: varied sentence rhythm, real opinions, contractions, rough edges, the things that make writing feel like a person actually wrote it. Three passes instead of two. Zero em dash tolerance. And a final audit that asks the only question that matters: "Would someone suspect AI wrote this?"
 
 ## Installation
 
@@ -18,12 +18,12 @@ deslop-copy goes further. It doesn't just remove AI tells, it **adds back what's
 
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/skyzer/deslop-copy.git
+git clone https://github.com/skyzer/deslop-the-copy.git
 ```
 
 **Or copy manually:**
 
-Copy `SKILL.md` into `~/.claude/skills/deslop-copy/SKILL.md`.
+Copy `SKILL.md` into `~/.claude/skills/deslop-the-copy/SKILL.md`.
 
 ## Usage
 
