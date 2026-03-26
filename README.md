@@ -4,6 +4,14 @@ A Claude Code skill that strips AI-generated writing patterns and makes text sou
 
 Three passes: kill AI patterns, add soul, final audit.
 
+## Why this exists
+
+Wikipedia's [WikiProject AI Cleanup](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup) maintains a detailed guide called [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), cataloging patterns observed across thousands of AI-generated texts. NPR, TechCrunch, and FlowingData have all covered it as the best reference for spotting machine-written prose.
+
+Existing skills like [humanizer](https://github.com/blader/humanizer) (25 detected patterns from the Wikipedia guide) and [stop-slop](https://github.com/hardikpandya/stop-slop) (banned phrases, structural cliches, sentence-level rules) focus on **detection and removal**. They strip the bad stuff out.
+
+deslop-copy goes further. It doesn't just remove AI tells, it **adds back what's missing**: varied sentence rhythm, real opinions, contractions, rough edges, the things that make writing feel like a person actually wrote it. Three passes instead of two. Zero em dash tolerance. And a final audit that asks the only question that matters: "Would someone suspect AI wrote this?"
+
 ## Installation
 
 **Clone directly into Claude Code skills:**
