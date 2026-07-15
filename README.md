@@ -42,7 +42,7 @@ AI text has a recognizable smell. This skill teaches Claude to identify and remo
 
 Targets four categories of AI tells:
 
-**Content patterns** like significance inflation ("stands as a testament"), promotional language ("groundbreaking", "nestled in the heart of"), vague attributions ("experts argue"), and generic "challenges and future" wrap-ups.
+**Content patterns** like significance inflation ("stands as a testament"), standalone filler sentences ("that distinction matters", "the practical mental model is simple"), promotional language ("groundbreaking", "nestled in the heart of"), vague attributions ("experts argue"), and generic "challenges and future" wrap-ups.
 
 **Language patterns** like AI vocabulary (robust, leverage, navigate, landscape, paradigm, delve, foster, synergy), copula avoidance ("serves as" instead of "is"), negative parallelisms ("it's not just about X, it's about Y"), rule-of-three overuse, synonym cycling, false ranges, filler phrases, and excessive hedging.
 
@@ -70,7 +70,7 @@ One last check: "What would make someone suspect AI wrote this?" Fix anything th
 > In today's rapidly evolving digital landscape, artificial intelligence stands as a transformative force that is fundamentally reshaping how businesses navigate the complexities of modern commerce. From small startups to large enterprises, organizations are leveraging robust AI solutions to enhance their operational efficiency, foster innovation, and drive sustainable growth. It's not just about automation -- it's about reimagining what's possible.
 
 **After:**
-> AI is changing how businesses work. Companies of all sizes are using it to cut costs, speed up processes, and try things they couldn't before. That matters. But we're still figuring out the real risks, and not everyone benefits equally.
+> AI is changing how businesses work. Companies of all sizes are using it to cut costs, speed up processes, and try things they couldn't before. But we're still figuring out the real risks, and not everyone benefits equally.
 
 ## License
 

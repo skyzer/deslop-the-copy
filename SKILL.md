@@ -20,6 +20,7 @@ Work through three passes. You don't need to announce the passes to the user. Ju
 Remove these on sight:
 
 - **Significance inflation.** "Stands as", "is a testament to", "pivotal moment", "marks a shift", "setting the stage". If something is actually important, the facts will show it. You don't need to tell the reader it's important.
+- **Filler sentences and throat-clearing transitions.** Cut standalone sentences that only announce importance, simplicity, contrast, scope, or what the next paragraph will explain. Examples: "That distinction matters", "This matters because", "The practical mental model is simple", "The key point is", "This request asks for more than X", "The same principle applies", "This is why it matters". If the sentence adds no fact, argument, or useful tension, delete it. If it contains a real point, merge that point into the surrounding sentence.
 - **Promotional language.** "Vibrant", "groundbreaking", "nestled", "in the heart of", "stunning", "breathtaking". These words have been drained of meaning through overuse. Find specific details instead, or just cut them.
 - **Vague attributions.** "Experts argue", "industry reports suggest", "observers have cited". Either name the source or drop the claim. Waving vaguely at authority is worse than stating an opinion directly.
 - **Superficial -ing analyses.** "Highlighting", "underscoring", "emphasizing", "showcasing", "fostering". These verbs let the writer gesture at significance without actually analyzing anything. Say what the thing *does*, not that it "highlights" something.
@@ -70,6 +71,7 @@ After stripping the AI patterns, the text might be clean but lifeless. Now make 
 Read the text one more time and ask: "What would make someone suspect AI wrote this?" Look for:
 
 - Any stock AI phrases that survived the first pass
+- Any standalone sentence that only says the point matters, sets up a contrast, or announces what the next sentence will do
 - Sentence and paragraph lengths that are too uniform
 - Any em dashes at all (there should be zero)
 - Any uncontracted forms that a native speaker would contract
