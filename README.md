@@ -84,10 +84,6 @@ The skill runs every result against [references/eval.md](references/eval.md). Fa
 **After:**
 > AI is changing how businesses operate. Companies of all sizes use it to automate work, run more efficiently, and test new ideas.
 
-## Approach
-
-The detection mode, minimum-edit principle, voice-preservation checks, and repeatable evaluation were informed by Peter Yang's [no-ai-slop](https://github.com/petergyang/no-ai-slop). deslop-the-copy keeps its broader cleanup rules and absolute ban on em dashes.
-
 ## License
 
 MIT
