@@ -1,6 +1,6 @@
 # deslop-the-copy
 
-A writing skill that removes AI-generated patterns without replacing the writer's voice with a generic "human" one.
+A portable Agent Skill for Claude Code, Codex, OpenClaw, Cursor, Gemini CLI, GitHub Copilot, and other compatible agents. It removes AI-generated patterns without replacing the writer's voice with a generic "human" one.
 
 It can edit a draft or detect named slop patterns without rewriting. Every edit is checked against a repeatable evaluation, and em dashes are never allowed in the output.
 
@@ -14,20 +14,33 @@ deslop-the-copy preserves the writer's vocabulary, cadence, bluntness, humor, un
 
 ## Installation
 
-**Clone directly into Claude Code skills:**
+This repository follows the open [Agent Skills](https://agentskills.io) format.
+
+**Cross-agent installer:**
 
 ```bash
-cd ~/.claude/skills
+npx skills add skyzer/deslop-the-copy
+```
+
+The installer lets you choose from its supported agents, including Claude Code, Codex, OpenClaw, Cursor, Gemini CLI, and GitHub Copilot.
+
+**OpenClaw:**
+
+```bash
+openclaw skills install @skyzer/deslop-the-copy
+```
+
+**Manual installation:**
+
+Clone or copy the entire repository into your agent's skills directory. Keep `SKILL.md` and `references/eval.md` together.
+
+```bash
 git clone https://github.com/skyzer/deslop-the-copy.git
 ```
 
-**Or copy manually:**
-
-Copy `SKILL.md` into `~/.claude/skills/deslop-the-copy/SKILL.md`.
-
 ## Usage
 
-Ask Claude to clean up any AI-sounding text:
+Ask your agent to clean up any AI-sounding text:
 
 - "Deslop this paragraph"
 - "Make this not sound like AI"
